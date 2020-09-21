@@ -38,7 +38,7 @@ function showResult(arrCheck) {
   let nbError = arrCheck.filter((el) => el !== true).length;
   switch (nbError) {
     case 0:
-      titreResult.innerText = `${emojis[0]}Féliciations, c'est un sans faute !${emojis[0]}`;
+      titreResult.innerText = `${emojis[0]}Félicitations, c'est un sans faute !${emojis[0]}`;
       helpResult.innerText = "";
       noteResult.innerText = `5/5`;
       break;
